@@ -12,8 +12,7 @@ Reset button resets all of the game stats
 
 //Document Ready
 $(document).ready(function(){
-
-	// All code starts here:
+// All code starts here:
 
 	//Create a function that generates the random number to call upon later
 	var randomNumber = 0;
@@ -35,21 +34,17 @@ $(document).ready(function(){
    	function randomGemValuesGenerator() {
    		//Green Gem
 		greenNumber = Math.floor(Math.random() * 12) + 1; // returns a number between 1 and 12
-		console.log("The Green Diamond's value is: " + greenGemNmbr); //Checking via console
-
+		console.log("The Green Diamond's value is: " + greenNumber); //Console check
 		//Red Gem
 		redNumber = Math.floor(Math.random() * 12) + 1; // returns a number between 1 and 12
-		console.log("The Red Diamond's value is: " + redGemNmbr); //Checking via console
-
+		console.log("The Red Diamond's value is: " + redNumber); //Console check
 		//Yellow Gem
 		yellowNumber = Math.floor(Math.random() * 12) + 1; // returns a number between 1 and 12
-		console.log("The Yellow Diamond's value is: " + yellowGemNmbr); //Checking via console
-
+		console.log("The Yellow Diamond's value is: " + yellowNumber); //Console check
 		//Purple Gem
 		purpleNumber = Math.floor(Math.random() * 12) + 1; // returns a number between 1 and 12
-		console.log("The Purple Diamond's value is: " + purpleGemNmbr); //Checking via console
-   	}
-	
+		console.log("The Purple Diamond's value is: " + purpleNumber); //Console check
+       }
 	//======
 
 	//Call the functions above to start the game the first time:
@@ -64,10 +59,10 @@ $(document).ready(function(){
 	var wins = 0;
 	var losses = 0;
 
-	//Everytime each crystal is clicked, add each crystal's value to the Total Score and display it
-		//Green Diamond
+	//Every time each gem is clicked, add each gem's value to the Total Score and display it
+		//Green Gem
 		$("#greenGem").on("click", function() {
-			yourScoreIs = yourScoreIs + greenGemNmbr;
+			yourScoreIs = yourScoreIs + greenNumber;
 			console.log(yourScoreIs); //Checking via console
 			$("#yourScore").html(yourScoreIs);
 
@@ -100,9 +95,9 @@ $(document).ready(function(){
 				}
 		});
 
-		//Red Diamond
+		//Red Gem
 		$("#redGem").on("click", function() {
-			yourScoreIs = yourScoreIs + redGemNmbr;
+			yourScoreIs = yourScoreIs + redNumber;
 			console.log(yourScoreIs); //Checking via console
 			$("#yourScore").html(yourScoreIs);
 
@@ -135,9 +130,9 @@ $(document).ready(function(){
 				}
 		});
 		
-		//Yellow Diamond
+		//Yellow Gem
 		$("#yellowGem").on("click", function() {
-			yourScoreIs = yourScoreIs + yellowGemNmbr;
+			yourScoreIs = yourScoreIs + yellowNumber;
 			console.log(yourScoreIs); //Checking via console
 			$("#yourScore").html(yourScoreIs);
 
@@ -170,9 +165,9 @@ $(document).ready(function(){
 				}
 		});
 
-		//Purple Diamond
+		//Purple Gem
 		$("#purpleGem").on("click", function() {
-			yourScoreIs = yourScoreIs + purpleGemNmbr;
+			yourScoreIs = yourScoreIs + purpleNumber;
 			console.log(yourScoreIs); //Checking via console
 			$("#yourScore").html(yourScoreIs);
 
@@ -222,6 +217,7 @@ $(document).ready(function(){
 			randomGemValuesGenerator();
 		});
 
-   // All code STOPS here:
+
+    //Code stops here
 
 });
