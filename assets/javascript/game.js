@@ -27,7 +27,7 @@ $(document).ready(function(){
 		console.log("The Random Number is: " + randomNumber); //Console check
 
 		//Add this new random number to the HTML page
-		$("#randomNumberId").html(randomNumber);
+		$("#randomNumber").html(randomNumber);
 	}
 
    	//Create a function that generates the random numbers and assign them to each gem
