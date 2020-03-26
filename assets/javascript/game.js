@@ -27,7 +27,7 @@ $(document).ready(function(){
 		console.log("The Random Number is: " + randomNumber); //Console check
 
 		//Add this new random number to the HTML page
-		$("#randomNumber").html(randomNumber);
+		$("#randomNumberId").html(randomNumber);
 	}
 
    	//Create a function that generates the random numbers and assign them to each gem
@@ -63,7 +63,7 @@ $(document).ready(function(){
 		//Green Gem
 		$("#greenGem").on("click", function() {
 			yourScoreIs = yourScoreIs + greenNumber;
-			console.log(yourScoreIs); //Checking via console
+			console.log(yourScoreIs); //Console check
 			$("#yourScore").html(yourScoreIs);
 
 			//Conditions for win or lose are checked after every click
@@ -98,7 +98,7 @@ $(document).ready(function(){
 		//Red Gem
 		$("#redGem").on("click", function() {
 			yourScoreIs = yourScoreIs + redNumber;
-			console.log(yourScoreIs); //Checking via console
+			console.log(yourScoreIs); //Console check
 			$("#yourScore").html(yourScoreIs);
 
 			//Conditions for win or lose are checked after every click
@@ -133,7 +133,7 @@ $(document).ready(function(){
 		//Yellow Gem
 		$("#yellowGem").on("click", function() {
 			yourScoreIs = yourScoreIs + yellowNumber;
-			console.log(yourScoreIs); //Checking via console
+			console.log(yourScoreIs); //Console check
 			$("#yourScore").html(yourScoreIs);
 
 			//Conditions for win or lose are checked after every click
@@ -168,7 +168,7 @@ $(document).ready(function(){
 		//Purple Gem
 		$("#purpleGem").on("click", function() {
 			yourScoreIs = yourScoreIs + purpleNumber;
-			console.log(yourScoreIs); //Checking via console
+			console.log(yourScoreIs); //Console check
 			$("#yourScore").html(yourScoreIs);
 
 			//Conditions for win or lose are checked after every click
