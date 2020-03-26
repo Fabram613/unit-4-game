@@ -6,7 +6,7 @@ body {
 }
 
 .jumbotron {
-    background-image: url("../images/background.jpg");
+    background-image: url("assets/images/background.jpg");
     margin-bottom: 60px;
     min-height: 50%;
     background-repeat: no-repeat;
@@ -16,11 +16,11 @@ body {
 }
 
 .jumbotron h1 {
-	font-family: 'Elsie Swash Caps', cursive;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .jumbotron p {
-	font-family: 'Raleway', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 300;
 	font-size: 18px;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .col-md-4 p {
-	font-family: 'Raleway', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 800;
 	font-size: 50px;
 	letter-spacing: 3px;
