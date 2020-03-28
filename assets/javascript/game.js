@@ -34,16 +34,16 @@ $(document).ready(function(){
    	function randomGemValuesGenerator() {
    		//Green Gem
 		greenNumber = Math.floor(Math.random() * 12) + 1; // returns a number between 1 and 12
-		console.log("The Green Diamond's value is: " + greenNumber); //Console check
+		console.log("The Green Gem's value is: " + greenNumber); //Console check
 		//Red Gem
 		redNumber = Math.floor(Math.random() * 12) + 1; // returns a number between 1 and 12
-		console.log("The Red Diamond's value is: " + redNumber); //Console check
+		console.log("The Red Gem's value is: " + redNumber); //Console check
 		//Yellow Gem
 		yellowNumber = Math.floor(Math.random() * 12) + 1; // returns a number between 1 and 12
-		console.log("The Yellow Diamond's value is: " + yellowNumber); //Console check
+		console.log("The Yellow Gem's value is: " + yellowNumber); //Console check
 		//Purple Gem
 		purpleNumber = Math.floor(Math.random() * 12) + 1; // returns a number between 1 and 12
-		console.log("The Purple Diamond's value is: " + purpleNumber); //Console check
+		console.log("The Purple Gem's value is: " + purpleNumber); //Console check
        }
 	//======
 
